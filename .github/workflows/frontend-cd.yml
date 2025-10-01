@@ -9,11 +9,11 @@ on:
       product_api_ip:
         description: 'External URL of Product API (e.g., http://X.X.X.X:8000)'
         required: true
-        default: 'http://<ip_address>:8000'
+        default: 'http://4.198.16.58:8000'
       order_api_ip:
         description: 'External URL of Order API (e.g., http://Y.Y.Y.Y:8001)'
         required: true
-        default: 'http://<ip_address>:8001'
+        default: 'http://4.237.112.42:8001'
       aks_cluster_name:
         description: 'AKS cluster name'
         required: true
