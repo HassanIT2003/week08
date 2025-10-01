@@ -1,7 +1,7 @@
-name: CD - Deploy Backend Services to AKS
+name: CD - Deploy Backend Services to AKS 
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: 
     inputs:
       aks_cluster_name:
         description: 'Name of the AKS Cluster to deploy to'
@@ -85,7 +85,7 @@ jobs:
           fi
           
           # These are environment variables for subsequent steps in the *same job*
-          # And used to set the job outputs
+          # And used to set the job outputsadasd
           echo "PRODUCT_IP=$PRODUCT_IP" >> $GITHUB_ENV
           echo "ORDER_IP=$ORDER_IP" >> $GITHUB_ENV
 
